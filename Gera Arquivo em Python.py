@@ -40,7 +40,7 @@ def Gera_Script():
     with open(nome_arquivo, 'w', encoding='utf-8') as file:
         for row in results:
             file.write(','.join(str(value) for value in row) + '\n')
-    popUp()
+    popUp() 
     
     
 Gera_Script()
